@@ -1,7 +1,5 @@
 # read dataset
 
-### CHANGE MYNAME = your name, or name of your computer, etc
-setwd("C:/Users/MYNAME/Desktop")
 datatmp <- read.table("toy_data.txt",sep="\t",header=T,blank.lines.skip=T)
 print(str(datatmp))
 
